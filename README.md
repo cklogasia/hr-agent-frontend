@@ -1,18 +1,6 @@
-# AI Chat UI (Apple-style)
+# Intelliflow HR Agent Frontend
 
-A clean, responsive, and modern chat UI built with vanilla JavaScript. Features an Apple-inspired design with markdown support for rich responses.
-
-![AI Chat UI Screenshot](https://via.placeholder.com/800x450.png?text=AI+Chat+UI+Screenshot)
-
-## Features
-
-- 🎨 **Apple-inspired design** - Clean, minimal interface with Apple design cues
-- 📱 **Fully responsive** - Works on mobile, tablet, and desktop
-- 🔄 **Pure JavaScript** - No frameworks or build tools required
-- 📝 **Markdown support** - Display rich text, code blocks, and formatted content
-- 🌓 **Light/dark mode** - Toggle between themes with automatic system preference detection
-- 💾 **Local storage** - Chat history persists across browser sessions
-- 🚀 **Lightweight** - Fast loading and execution
+A clean and responsive frontend for the HR agent.
 
 ## Usage
 
@@ -71,16 +59,8 @@ This application is built with modern JavaScript and CSS and should work in all 
 - Edge (latest)
 
 ## Next Steps
-
-Future enhancements could include:
-
-- Multiple chat sessions/conversations
-- User authentication
-- Voice input
-- File attachments
-- Conversation export
-- More advanced UI animations
-- Accessibility improvements
+- Add login and logout functionality
+- Remove mockup code and link the frontend to the real Intelliflow agent
 
 ## License
 
