@@ -91,6 +91,14 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: var(--border-radius-small);
+  transition: background-color var(--transition-fast);
+}
+
+.logo-container:hover {
+  background-color: var(--color-apple-gray);
 }
 
 .logo {

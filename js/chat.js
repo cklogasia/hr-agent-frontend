@@ -208,5 +208,19 @@ const ChatController = {
       this.messageInput.value = 'Hello! I need help with something.';
       this.handleSend();
     }
+  },
+  
+  /**
+   * Reset chat and return to welcome screen
+   */
+  resetChat() {
+    if (this.isLoading) return;
+    
+    // Clear messages
+    this.messages = [];
+    Utils.setLocalStorage('messages', this.messages);
+    
+    // Update UI to show welcome screen
+    this.updateUI();
   }
 };
